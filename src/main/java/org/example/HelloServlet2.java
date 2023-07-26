@@ -14,11 +14,11 @@ public class HelloServlet2 extends HttpServlet {
 
 
 
-   /* @Override
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // super.doGet(request, response);
+         super.doPost(request, response);
 
-    } */
+    }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
