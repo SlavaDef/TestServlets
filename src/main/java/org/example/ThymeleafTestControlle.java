@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 
-//@WebServlet("/test-template")
+@WebServlet("/test-template")
 public class ThymeleafTestControlle extends HttpServlet {
     private TemplateEngine engine;
 
@@ -54,5 +54,13 @@ public class ThymeleafTestControlle extends HttpServlet {
         resp.getWriter().close();
     }
 }
+// http://localhost:8080/ServeletsJaaR/test-template?varName=varValue&varV=varU&a=b - запит
+// отримаємо
+/*
+Variable count: 3
+varName = varValue
+varV = varU
+a = b
+ */
 
 
