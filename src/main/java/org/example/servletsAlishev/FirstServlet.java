@@ -22,6 +22,8 @@ public class FirstServlet extends HttpServlet {
         pr.write("</html>");
 
         pr.close();
+
+        // але повинно бути по іншому - джава це логіка відображення це html
     }
 
 
