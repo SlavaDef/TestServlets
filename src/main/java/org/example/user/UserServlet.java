@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet("/user")
+//@WebServlet("/user")
 public class UserServlet extends HttpServlet {
 
     @Override
@@ -27,8 +27,3 @@ public class UserServlet extends HttpServlet {
 
 
 }
-
-
-// Сервлет создает объект User. Для передачи его на страницу user.jsp устанавливается атрибут
-// "user" через вызов request.setAttribute("user", tom). Далее происходит перенаправление
-// на страницу user.jsp. И, таким образом, страница получит данные из сервлета.
